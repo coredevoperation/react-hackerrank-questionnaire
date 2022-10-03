@@ -1,0 +1,234 @@
+.navbar {
+    background-color: var(--fueledRed);
+    height: 72px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* position: fixed;
+    top: 0; */
+    box-shadow: 0px 4px 8px 2px #00000029;
+}
+
+.start {
+    justify-content: start;
+}
+
+.center {
+    justify-content: center;
+}
+
+.end {
+    justify-content: end;
+}
+
+.nav-side {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-center {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 12px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.btn-login {
+    background-color: #F5F5F133;
+    border: none;
+    font-size: 12px;
+    color: white;
+    padding: 8px;
+    margin-right: 20px;
+}
+
+.user-email {
+    margin-right: 14px;
+    color: white;
+    font-size: 12px;
+}
+
+.question-card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px #00000014;
+    gap: 16px;
+}
+
+div #question {
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+    padding: 2px 0px 0px 0px;
+    gap: 6px;
+}
+
+div #divider {
+    height: 1px;
+    background: var(--fueledWhite);
+}
+
+div #answer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+div #add-option {
+    height: 40px;
+    border: 1px solid #0000001A;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div #question-actions {
+    min-height: 48px;
+    padding: 16px 0px 0px 0px;
+    gap: 10px;
+    box-shadow: 0px -1px 0px 0px #F5F5F1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.question-label {
+    font-size: 12px;
+    height: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+}
+
+.question-input {
+    height: 52px;
+    padding: 16px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0000001A;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ans-options {
+    max-width: 271px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    border: 1px solid #0000001A;
+}
+
+.answer-short-input {
+    height: 52px;
+    padding: 16px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0000001A;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04));
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.answer-long-input {
+    height: 92px;
+    padding: 16px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0000001A;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04));
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ans-option {
+    height: 52px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn-add-option {
+    min-width: 108px;
+    height: 30px;
+    padding: 8px;
+    gap: 8px;
+    color: var(--fueledRed);
+    background-color: transparent;
+    border: none;
+}
+
+.option-check {
+    width: 24px;
+    height: 24px;
+}
+
+.option-label {
+    display: flex;
+    flex-grow: 2;
+    min-height: 52px;
+    border-radius: 4px;
+    padding: 16px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    border: 1px solid #0000001A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.btn-remove-option {
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.question-index {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    height: 18px;
+    width: 155px;
+    text-align: left;
+}
+
+.icon-btn {
+    min-width: 32px;
+    min-width: 32px;
+    padding: 8px;
+    gap: 10px;
+    border: none;
+    background-color: transparent;
+}

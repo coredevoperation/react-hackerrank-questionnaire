@@ -1,0 +1,42 @@
+.landing-page {
+    background-color: var(--fueledWhite);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+    padding: 0px 10px;
+    height: fit-content;
+    max-width: 712px;
+    gap: 32px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.btn-add {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0000001A;
+    background-color: var(--fueledWhite);
+    height: 40px;
+    font-weight: 700;
+}
+
+.btn-save {
+    border: none;
+    background-color: var(--fueledRed);
+    height: 40px;
+    font-weight: 700;
+    color: white;
+}
